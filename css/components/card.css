@@ -1,0 +1,28 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  font-size: 20px;
+  box-shadow: 5px 5px 5px lightgrey;
+  transition: width 2s, box-shadow 2s;
+  border-color: red;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+  width: 250px;
+  }

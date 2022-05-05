@@ -1,0 +1,42 @@
+.btn-cta {
+  display: inline-block;
+  background-color: red;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  position: relative;
+  bottom: 350px;
+  right: 300px;
+  width: 100px;
+  text-align: center;
+  font-family: Oleo Script Swash Caps;
+  font-size: 20px;
+  transition: width 2s, box-shadow 2s, font-size 2s;
+}
+
+.btn-cta:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+  font-size: 30px;
+  width: 200px;
+}
+
+.btn-footer {
+  display: inline-block;
+  background-color: red;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  font-family: Oleo Script Swash Caps;
+  font-size: 20px;
+  width: 100px;
+  transition: width 2s, box-shadow 2s, font-size 2s;
+}
+
+.btn-footer:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+  font-size: 30px;
+  width: 200px;
+}
